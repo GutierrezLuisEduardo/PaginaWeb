@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daft Punk - Interna</title>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  user-select: none;
+}
+
+html, body {
+  overflow-x: hidden;
+  color: rgb(228, 228, 228);
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Contenedor tipo glass */
+.container {
+  width: 90%;
+  padding: 2%;
+  max-height: 100%;
+  margin: 20px 0;
+  border-radius: 20px;
+  background: rgba(30, 30, 30, 0.6);
+  backdrop-filter: blur(50px) saturate(70%);
+  -webkit-backdrop-filter: blur(50px) saturate(70%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  color: #f5f5f5;
+  text-align: center;
+}
+
+h1 {
+  background: linear-gradient(to right, rgba(200,255,70,0.75), rgba(64,255,0,0.75));
+  color: rgba(0,0,0,0.65) !important;
+  padding: 6px 14px;
+  border-radius: 12px;
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
+  font-size: 1.8rem;
+  backdrop-filter: blur(10px);
+}
+
+h2 {
+  text-decoration: underline;
+  color: rgba(255, 176, 30, 1) !important;
+  padding: 4px 8px;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 1.2em;
+}
+
+img {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+a {
+  margin-left: 1.5%;
+  background-color: #1E1E1E;
+  color: rgb(252,156,134) !important;
+  font-weight: 500;
+  padding: 4px 8px !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,0.1) !important;
+}
+
+.nav {
+  margin-top: 30px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Daft Punk</h1>
+    <h2>Pioneros de la música electrónica</h2>
+
+    <p>
+Daft Punk fue un dúo francés de música electrónica formado por Guy-Manuel de Homem-Christo y Thomas Bangalter. Con su estilo visual icónico y producción innovadora, marcaron un antes y un después en la música.
+    </p>
+
+    <img src="https://electronicgroove.com/wp-content/uploads/2018/07/Daft-punk.jpg" alt="Daft Punk">
+
+    <p><a href="https://www.daftpunk.com" target="_blank">Sitio oficial de Daft Punk</a></p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FGBhQbmPwH8" frameborder="0" allowfullscreen></iframe>
+
+    <div class="nav">
+      <a href="inline.html">Versión Inline</a> |
+      <a href="externa.html">Versión Externa</a>
+    </div>
+  </div>
+</body>
+</html>
